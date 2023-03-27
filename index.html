@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>English Dictionary</title>
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="./src/script.js" defer type="module"></script>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>English Dictionary</h1>
+    </header>
+    <section>
+      <h3>Enter a Word</h3>
+      <input type="text" placeholder="example" id="input-word">
+      <button id="search-btn">Search</button>
+      <div>
+        <h3>Results</h3>
+        <p id="word"></p>
+        <p id="part-of-speech"></p>
+        <ul id="result-list">
+        </ul>
+      </div>
+    </section>
+    <footer>
+      <p>Made by Geovanna Otoni with API <a href="https://dictionaryapi.dev/">DictionaryAPI</a></p>
+      <p>Social Media: 
+          <a href="https://github.com/geovannaotoni" class="fab fa-github"></a>
+          <a href="https://www.linkedin.com/in/geovanna-otoni/" class="fab fa-linkedin"></a>
+      </p>
+    </footer>
+  </main>
+</body>
+</html>
