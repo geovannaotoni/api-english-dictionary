@@ -1,5 +1,5 @@
 # English Dictionary
-Projeto Pessoal de um dicionário do idioma inglês que exibe a definição da palavra pesquisada pela pessoa usuária, a partir da API DictionaryAPI.
+Projeto Pessoal de um dicionário do idioma inglês que exibe a definição da palavra pesquisada pela pessoa usuária, a partir da API DictionaryAPI.<br><br>
 <img src="./print.png">
 
 ## :computer: Visualize este projeto:
